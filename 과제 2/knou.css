@@ -1,0 +1,16 @@
+/* knou css */ 
+p{
+    font-size: 12pt;
+    color: blue;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+}
+li{
+    list-style: none;
+    font-size: 12pt;
+    color: blue;
+    margin-right: 10px;
+}

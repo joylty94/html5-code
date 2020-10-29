@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+main{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 143px;
+}
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: solid 1px #aaaaaa;
+    background-color: #ffffff;
+    top:0;
+    left: 0;
+    right: 0;
+}
+header p {
+    font-weight: bold;
+}
+nav ol{
+    display: flex;
+    position: fixed;
+    top :92px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    align-items: center;
+    padding: 0;
+    border-bottom: solid 1px #aaaaaa;
+    margin:0;
+    background-color: #3277c2;
+}
+nav ol li{
+    list-style: none;
+    padding: 0 30px;
+}
+
+nav ol li a{
+    display: inline-block;
+    color: #ffffff;
+}
+
+nav ol li a:hover{
+    font-weight: bold;
+    color: #000;
+}
+
+a {color: #000; text-decoration: none; outline: none}
+
+a:hover, a:active {text-decoration: none; color:unset; background-color:unset;}
+
+section{
+    width: 70%;
+}
+
+article{
+    margin-bottom: 70px;
+    padding: 0 20px;
+}
+
+aside{
+    box-sizing: border-box;
+    position: fixed;
+    top: 163px;
+    right: 20px;
+    width: 30%;
+    border: solid 2px #3277c2;
+    padding: 0 20px 20px;
+}
+
+aside ul{
+    margin: 0;
+    padding: 0;
+}
+
+aside ul li{
+    display: inline-block;
+    width: 49%;
+    list-style: none;
+    padding: 40px 0;
+    border: 1px solid #3277c2;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+aside .profile{
+    display: flex;
+    align-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #3277c2;
+    margin-bottom: 20px;
+}
+aside .profile p {
+    text-align: left;
+    margin: 0;
+    padding: 13px 0 13px 30px;
+}
+aside .profile img{
+    width: 60px;
+    height: 60px;
+}
+
+hgroup h1{
+    font-size: 16pt;
+}
+hgroup h2{
+    font-size: 12pt;
+    margin: 5px 0 20px;
+}
+
+#assignment-01 img{
+    width: calc(100% - 30px);
+    height: 550px;
+}
+
+#assignment-02 .assignment_02_01{
+    float: left;
+    width: calc(100% - 30px);
+    height: 600px;
+    margin-right: 70px;
+}
+
+#assignment-03 .box{
+    display: inline-block;
+    border: 1px solid #aaaaaa;
+    padding: 0 20px;
+}
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+footer{
+    border-top: solid 1px #aaaaaa;
+    padding: 40px 20px;
+}
+
+footer > div > p{
+    text-align: center;
+    font-size: 16pt;
+}
+
+footer ul{
+    padding: 0;
+    margin:0;
+}
+footer ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+footer ul li.tel{
+    display: flex;
+    justify-content: center;
+}
+footer ul li.tel p {
+    display: inline-block;
+    margin: 0;
+}
+
+footer a {
+    color: #3277c2;
+}
